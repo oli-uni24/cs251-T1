@@ -11,4 +11,12 @@ public class RevisionMethods {
         // Check if n is a multiple of m
         return n % m == 0;
     }
+
+    // returns true if and only if i is odd
+    // not use multiplication, modulus or division operators
+    public static boolean isOdd(int i) {
+        return (i & 1) == 1;
+    }
+
+
 }
